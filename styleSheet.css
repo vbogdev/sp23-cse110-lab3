@@ -47,6 +47,7 @@ video[src="clip.mp4"]{
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+    display:inline-block;
 }
 
 #box3{
@@ -56,8 +57,12 @@ video[src="clip.mp4"]{
     border-width: 1px;
     border-radius: 4px;
     padding: 5px 5px 5px 5px;
-    display:inline-block;
-    
+
+
+    display:grid;
+    justify-self: center;
+    align-self: start;
+    grid-template-columns: 1fr;
 }
 
 #box4{
@@ -69,3 +74,9 @@ video[src="clip.mp4"]{
     display:block;
 }
 
+#list{
+    display:flex;
+    flex-direction: column-reverse;
+    flex-grow: 4;
+    flex-shrink: 3;
+}
