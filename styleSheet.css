@@ -47,6 +47,7 @@ video[src="clip.mp4"]{
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+    display:inline-block;
 }
 
 #box3{
@@ -56,6 +57,7 @@ video[src="clip.mp4"]{
     border-width: 1px;
     border-radius: 4px;
     padding: 5px 5px 5px 5px;
+
 
     display:grid;
     justify-self: center;
@@ -69,6 +71,7 @@ video[src="clip.mp4"]{
     border-color:black;
     border-width: 1px;
     border-radius: 4px;
+    display:block;
 }
 
 #list{
