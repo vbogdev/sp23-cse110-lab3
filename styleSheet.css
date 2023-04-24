@@ -22,3 +22,14 @@
 h3{
     font-family: 'Bruno Ace', cursive;
 }
+
+h1[class="blue-text"]{
+    position:fixed;
+    top: 20px;
+    left: 200px;
+}
+
+video[src="clip.mp4"]{
+    position:relative;
+    left:200px;
+}
