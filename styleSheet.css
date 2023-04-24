@@ -56,6 +56,11 @@ video[src="clip.mp4"]{
     border-width: 1px;
     border-radius: 4px;
     padding: 5px 5px 5px 5px;
+
+    display:grid;
+    justify-self: center;
+    align-self: start;
+    grid-template-columns: 1fr;
 }
 
 #box4{
@@ -66,3 +71,9 @@ video[src="clip.mp4"]{
     border-radius: 4px;
 }
 
+#list{
+    display:flex;
+    flex-direction: column-reverse;
+    flex-grow: 4;
+    flex-shrink: 3;
+}
