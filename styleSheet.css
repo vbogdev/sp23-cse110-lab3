@@ -2,3 +2,19 @@
 .blue-text{
     color:blue;
 }
+
+#l1{
+    color:rgb(255, 255, 0);
+}
+
+#l2{
+    color:#FF0000;
+}
+
+#l3{
+    color:hsl(75, 50%, 50%)
+}
+
+*{
+    background-color: aquamarine;
+}
