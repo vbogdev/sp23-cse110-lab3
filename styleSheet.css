@@ -80,3 +80,18 @@ video[src="clip.mp4"]{
     flex-grow: 4;
     flex-shrink: 3;
 }
+
+@media screen and (max-width: 1200px){
+    h1 > h2{
+        color: blueviolet;
+    }
+
+    br ~ h3{
+        color:greenyellow;
+    }
+
+    ul + li {
+        color:royalblue;
+    }
+
+}
